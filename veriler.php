@@ -157,7 +157,7 @@ if (isset($_GET['guncelle'])) {
         echo "<p>Mesaj bulunamadı.</p>";
     }
 }
-
+ 
 // Kayıtları listele
 if (!isset($_GET['guncelle'])) {
     $sql = "SELECT id, secenek_id, ad_soyad, mail_adr, tel_no, msj_konu, msj_icerik, tarih, guncelleme_tarihi FROM iletisim";
