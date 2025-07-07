@@ -47,7 +47,7 @@ if ($ilgisi_sorgu && $ilgisi_sorgu->num_rows > 0) {
         $secenek_aciklamalari[$secenek['ilgi_id']] = $secenek['ilgi_adi'];
     }
 }
-?>
+?> 
 
 <!DOCTYPE html>
 <html>
